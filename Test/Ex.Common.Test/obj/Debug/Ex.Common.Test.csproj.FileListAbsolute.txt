@@ -1,0 +1,11 @@
+E:\mytest\Rx.Framework\Test\Ex.Common.Test\bin\Debug\Ex.Common.Test.dll
+E:\mytest\Rx.Framework\Test\Ex.Common.Test\bin\Debug\Ex.Common.Test.pdb
+E:\mytest\Rx.Framework\Test\Ex.Common.Test\bin\Debug\Rx.Common.dll
+E:\mytest\Rx.Framework\Test\Ex.Common.Test\bin\Debug\Newtonsoft.Json.dll
+E:\mytest\Rx.Framework\Test\Ex.Common.Test\bin\Debug\AutoMapper.dll
+E:\mytest\Rx.Framework\Test\Ex.Common.Test\bin\Debug\Rx.Common.pdb
+E:\mytest\Rx.Framework\Test\Ex.Common.Test\bin\Debug\Newtonsoft.Json.xml
+E:\mytest\Rx.Framework\Test\Ex.Common.Test\bin\Debug\AutoMapper.xml
+E:\mytest\Rx.Framework\Test\Ex.Common.Test\obj\Debug\Ex.Common.Test.csprojResolveAssemblyReference.cache
+E:\mytest\Rx.Framework\Test\Ex.Common.Test\obj\Debug\Ex.Common.Test.dll
+E:\mytest\Rx.Framework\Test\Ex.Common.Test\obj\Debug\Ex.Common.Test.pdb
