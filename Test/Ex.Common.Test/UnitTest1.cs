@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Linq.Expressions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Rx.Common;
@@ -39,14 +40,12 @@ namespace Ex.Common.Test
             od.Pros.Add(p2);
 
 
-            List<ProductDto> pDtos = new List<ProductDto>();
-            foreach (var product in od.Pros)
-            {
-                pDtos.Add(product.Map<Product, ProductDto>());
-            }
+            List<ProductDto> pDtos = od.Pros.Select(product => product.Map<Product, ProductDto>()).ToList();
 
-            List<Expression<Func<OrderDto, object>>>  ignores = new List<Expression<Func<OrderDto, object>>>();
-            ignores.Add((s) => s.Pros);
+            List<Expression<Func<OrderDto, object>>> ignores = new List<Expression<Func<OrderDto, object>>>
+            {
+                (s) => s.Pros
+            };
 
             var dto = od.Map<Order, OrderDto>(ignoreMembers: ignores.ToArray());
             dto.Pros = pDtos;

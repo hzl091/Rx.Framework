@@ -9,8 +9,8 @@ namespace Rx.Common.Entities.Test
         [TestMethod]
         public void TestMethod1()
         {
-            TestEntity entity = new TestEntity();
-            entity.Map<TestEntity, string>();
+            //TestEntity entity = new TestEntity();
+            //entity.Map<TestEntity, string>();
         }
     }
 }

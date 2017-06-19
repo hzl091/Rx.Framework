@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D3444C9E-A639-42B9-941E-FE5A94BC8712}</ProjectGuid>
+    <ProjectGuid>{050A189A-8041-4947-8107-E87010ED3E31}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Rx.Common.Entities</RootNamespace>
-    <AssemblyName>Rx.Common.Entities</AssemblyName>
+    <RootNamespace>Rx.Infrastructure</RootNamespace>
+    <AssemblyName>Rx.Infrastructure</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
@@ -41,16 +42,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AggregateRootEntity.cs" />
-    <Compile Include="Dtos\BaseDto.cs" />
-    <Compile Include="Dtos\PageModel.cs" />
-    <Compile Include="INameable.cs" />
-    <Compile Include="INumerable.cs" />
-    <Compile Include="ISearchable.cs" />
-    <Compile Include="ISortable.cs" />
-    <Compile Include="NameValue.cs" />
-    <Compile Include="PlainEntity.cs" />
+    <Compile Include="AppServiceBase\IApplicationService.cs" />
+    <Compile Include="Attributes\RequireAuthorizationAttribute.cs" />
+    <Compile Include="Constants\ApplicationType.cs" />
+    <Compile Include="Constants\CacheConstants.cs" />
+    <Compile Include="Constants\CommonConstants.cs" />
+    <Compile Include="Constants\LoginInfo.cs" />
+    <Compile Include="Constants\SessionKey.cs" />
+    <Compile Include="Constants\WebConfigSetting.cs" />
+    <Compile Include="CustomExceptions\AppServiceException.cs" />
+    <Compile Include="CustomExceptions\DomainException.cs" />
+    <Compile Include="CustomExceptions\NoPermissionException.cs" />
+    <Compile Include="CustomExceptions\PresentationException.cs" />
+    <Compile Include="CustomExceptions\RepositoryException.cs" />
+    <Compile Include="CustomExceptions\UIException.cs" />
+    <Compile Include="DomainServiceBase\IDomainService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositoryBase\IAggRootRepository.cs" />
+    <Compile Include="RepositoryBase\IDataInitializer.cs" />
+    <Compile Include="RepositoryBase\IDbCleaner.cs" />
+    <Compile Include="RepositoryBase\IEntityRepository.cs" />
+    <Compile Include="RepositoryBase\ISimpleRepository.cs" />
+    <Compile Include="RepositoryBase\IUnitOfWork.cs" />
+    <Compile Include="RepositoryBase\PageExtension.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rx.Common.Entities\Rx.Common.Entities.csproj">
+      <Project>{d3444c9e-a639-42b9-941e-fe5a94bc8712}</Project>
+      <Name>Rx.Common.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
