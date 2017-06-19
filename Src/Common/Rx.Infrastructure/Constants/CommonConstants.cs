@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SD.Infrastructure.Constants
+namespace Rx.Infrastructure.Constants
 {
     /// <summary>
     /// 公共常量

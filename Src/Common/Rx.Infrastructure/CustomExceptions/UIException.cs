@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SD.Infrastructure.CustomExceptions
+namespace Rx.Infrastructure.CustomExceptions
 {
     /// <summary>
     /// UI层异常基类

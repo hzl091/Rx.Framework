@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Rx.Common.Entities;
 
-namespace SD.Infrastructure.RepositoryBase
+namespace Rx.Infrastructure.RepositoryBase
 {
     /// <summary>
     /// 单元事务基接口

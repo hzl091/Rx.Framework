@@ -1,6 +1,6 @@
 ﻿using Rx.Common.Entities;
 
-namespace SD.Infrastructure.DomainServiceBase
+namespace Rx.Infrastructure.DomainServiceBase
 {
     /// <summary>
     /// 领域服务基接口

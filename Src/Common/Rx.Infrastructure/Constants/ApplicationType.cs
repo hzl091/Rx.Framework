@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Runtime.Serialization;
 
-namespace SD.Infrastructure.Constants
+namespace Rx.Infrastructure.Constants
 {
     /// <summary>
     /// 应用程序类型

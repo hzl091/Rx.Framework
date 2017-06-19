@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SD.Infrastructure.CustomExceptions
+namespace Rx.Infrastructure.CustomExceptions
 {
     /// <summary>
     /// 仓储层异常基类

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using Rx.Common.Entities;
 
-namespace SD.Infrastructure.RepositoryBase
+namespace Rx.Infrastructure.RepositoryBase
 {
     /// <summary>
     /// 分页扩展工具类

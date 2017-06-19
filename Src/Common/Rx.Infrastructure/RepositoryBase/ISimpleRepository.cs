@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Rx.Common.Entities;
 
-namespace SD.Infrastructure.RepositoryBase
+namespace Rx.Infrastructure.RepositoryBase
 {
     /// <summary>
     /// 简单仓储层基接口

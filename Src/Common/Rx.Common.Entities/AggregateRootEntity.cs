@@ -27,56 +27,56 @@ namespace Rx.Common.Entities
         /// <summary>
         /// 编号
         /// </summary>
-        public string Number { get; protected set; }
+        public string Number { get; set; }
         #endregion
 
         #region 名称 —— string Name
         /// <summary>
         /// 名称
         /// </summary>
-        public string Name { get; protected set; }
+        public string Name { get; set; }
         #endregion
 
         #region 关键字 —— string Keywords
         /// <summary>
         /// 关键字
         /// </summary>
-        public string Keywords { get; private set; }
+        public string Keywords { get; set; }
         #endregion
 
         #region 保存时间 —— DateTime SavedTime
         /// <summary>
         /// 保存时间
         /// </summary>
-        public DateTime SavedTime { get; protected internal set; }
+        public DateTime SavedTime { get; set; }
         #endregion
 
         #region 逻辑删除标记 —— bool Deleted
         /// <summary>
         /// 逻辑删除标记
         /// </summary>
-        public bool Deleted { get; protected internal set; }
+        public bool Deleted { get; set; }
         #endregion
 
         #region 删除时间 —— DateTime? DeletedTime
         /// <summary>
         /// 删除时间
         /// </summary>
-        public DateTime? DeletedTime { get; protected internal set; }
+        public DateTime? DeletedTime { get; set; }
         #endregion
 
         #region 创建人账号 —— string CreatorAccount
         /// <summary>
         /// 创建人账号
         /// </summary>
-        public string CreatorAccount { get; protected internal set; }
+        public string CreatorAccount { get; set; }
         #endregion
 
         #region 操作人账号 —— string OperatorAccount
         /// <summary>
         /// 操作人账号
         /// </summary>
-        public string OperatorAccount { get; protected internal set; }
+        public string OperatorAccount { get; set; }
         #endregion
 
         #endregion

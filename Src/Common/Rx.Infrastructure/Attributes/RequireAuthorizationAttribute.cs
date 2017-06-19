@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SD.Infrastructure.Attributes
+namespace Rx.Infrastructure.Attributes
 {
     /// <summary>
     /// 需要权限验证特性类

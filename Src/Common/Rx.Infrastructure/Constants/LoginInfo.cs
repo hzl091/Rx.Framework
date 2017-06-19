@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace SD.Infrastructure.Constants
+namespace Rx.Infrastructure.Constants
 {
     /// <summary>
     /// 登录信息

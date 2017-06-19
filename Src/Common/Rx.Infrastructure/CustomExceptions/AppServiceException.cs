@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ServiceModel;
 
-namespace SD.Infrastructure.CustomExceptions
+namespace Rx.Infrastructure.CustomExceptions
 {
     /// <summary>
     /// 应用程序服务层异常基类

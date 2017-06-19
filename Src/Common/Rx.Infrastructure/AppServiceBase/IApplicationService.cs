@@ -1,4 +1,4 @@
-﻿namespace SD.Infrastructure.AppServiceBase
+﻿namespace Rx.Infrastructure.AppServiceBase
 {
     /// <summary>
     /// 应用程序服务基接口

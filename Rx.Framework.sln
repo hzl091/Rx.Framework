@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rx.Common.Entities.Test", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rx.Infrastructure", "Src\Common\Rx.Infrastructure\Rx.Infrastructure.csproj", "{050A189A-8041-4947-8107-E87010ED3E31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rx.Infrastructure.Test", "Test\Rx.Infrastructure.Test\Rx.Infrastructure.Test.csproj", "{63CA7ACD-3727-4102-83A6-84DBC5797058}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rx.Repository.EntityFramework", "Src\Common\Rx.Repository.EntityFramework\Rx.Repository.EntityFramework.csproj", "{E5F35D99-7014-40FF-8960-346FEFBE70A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,14 @@ Global
 		{050A189A-8041-4947-8107-E87010ED3E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{050A189A-8041-4947-8107-E87010ED3E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{050A189A-8041-4947-8107-E87010ED3E31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63CA7ACD-3727-4102-83A6-84DBC5797058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63CA7ACD-3727-4102-83A6-84DBC5797058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63CA7ACD-3727-4102-83A6-84DBC5797058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63CA7ACD-3727-4102-83A6-84DBC5797058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F35D99-7014-40FF-8960-346FEFBE70A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F35D99-7014-40FF-8960-346FEFBE70A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F35D99-7014-40FF-8960-346FEFBE70A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F35D99-7014-40FF-8960-346FEFBE70A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,5 +65,7 @@ Global
 		{17E67CD6-29CB-4C37-AA32-BD411D73A8DA} = {1960E882-4722-4068-A270-BAB9F8B59D9B}
 		{1F70EF0A-5F74-4151-8879-A3B63B841D2D} = {1960E882-4722-4068-A270-BAB9F8B59D9B}
 		{050A189A-8041-4947-8107-E87010ED3E31} = {CADD7D97-E70F-40DB-9FA5-F2FC053B6FD0}
+		{63CA7ACD-3727-4102-83A6-84DBC5797058} = {1960E882-4722-4068-A270-BAB9F8B59D9B}
+		{E5F35D99-7014-40FF-8960-346FEFBE70A2} = {CADD7D97-E70F-40DB-9FA5-F2FC053B6FD0}
 	EndGlobalSection
 EndGlobal

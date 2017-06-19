@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SD.Infrastructure.CustomExceptions
+namespace Rx.Infrastructure.CustomExceptions
 {
     /// <summary>
     /// 表现层异常基类

@@ -1,4 +1,4 @@
-﻿namespace SD.Infrastructure.Constants
+﻿namespace Rx.Infrastructure.Constants
 {
     /// <summary>
     /// 缓存常量，

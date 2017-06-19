@@ -1,4 +1,4 @@
-﻿namespace SD.Infrastructure.RepositoryBase
+﻿namespace Rx.Infrastructure.RepositoryBase
 {
     /// <summary>
     /// 数据库清理者接口

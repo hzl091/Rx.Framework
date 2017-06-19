@@ -1,4 +1,4 @@
-﻿namespace SD.Infrastructure.RepositoryBase
+﻿namespace Rx.Infrastructure.RepositoryBase
 {
     /// <summary>
     /// 数据初始化器接口
